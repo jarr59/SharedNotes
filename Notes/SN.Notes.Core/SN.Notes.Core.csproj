@@ -10,4 +10,8 @@
     <ProjectReference Include="..\..\ShareNotes\ShareNotes.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
