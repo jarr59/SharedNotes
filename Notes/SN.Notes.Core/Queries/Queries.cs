@@ -1,8 +1,10 @@
-﻿namespace SN.Notes.Core.Queries;
+﻿using MediatR;
+
+namespace SN.Notes.Core.Queries;
 
 /// <summary>
 /// 
 /// </summary>
 /// <param name="UserId"></param>
 /// <param name="Contains"></param>
-public record GetByUser(string UserId, string Contains);
+public record GetByUser(string UserId, string Contains) : IRequest<IEnumerable<Note>>;
