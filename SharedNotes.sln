@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note", "Note", "{675BBA7E-4A81-4E38-8472-C45C7CFC9E7F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{E651A3EE-3EE0-4702-BC63-D4999C089611}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SN.Notes.Core", "Notes\SN.Notes.Core\SN.Notes.Core.csproj", "{B025E291-9BB8-46A8-8720-918500CCF119}"
